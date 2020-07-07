@@ -7,7 +7,7 @@
 //
 
 #import "QIMWebRTCSocketClient.h"
-#import "SocketRocket.h"
+#import <SocketCraft/SocketRocket.h>
 #import "QIMJSONSerializer.h"
 #import "QIMKitPublicHeader.h"
 #import "QIMNetwork.h"
@@ -259,7 +259,8 @@ NSString *NSStringFromWebRTCRoomEvent(WebRTCRoomEvent value) {
     [pingDic setObject:@{@"interval": @(450000)} forKey:@"params"];
     NSString *message = [[QIMJSONSerializer sharedInstance] serializeObject:pingDic];
     if ([self.webSocket readyState] == SR_OPEN) {
-        [self.webSocket sendPing:[message dataUsingEncoding:NSUTF8StringEncoding]];
+        //todo修复兼容性问题:[self.webSocket sendPing:[message dataUsingEncoding:NSUTF8StringEncoding]];
+        [self.webSocket sendPing:[message dataUsingEncoding:NSUTF8StringEncoding] error:nil];
         [self performSelector:@selector(sendPing) withObject:nil afterDelay:30];
     }
 }
