@@ -17,7 +17,7 @@
 #import "NSBundle+QIMLibrary.h"
 #import "QIMPublicRedefineHeader.h"
 #import <WebRTC/WebRTC.h>
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 #import "NSBundle+QIMLibrary.h"
 #import "QIMVideoEncoderFactory.h"
 #import "QIMVideoDecoderFactory.h"

@@ -104,6 +104,14 @@
 		2CC9A51620AE8DF600A3FC8C /* QIMLocalLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC9A50F20AE8DF600A3FC8C /* QIMLocalLog.h */; };
 		2CC9A51720AE8DF600A3FC8C /* QIMBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9A51020AE8DF600A3FC8C /* QIMBacktraceLogger.m */; };
 		2CC9A51820AE8DF600A3FC8C /* QIMLocalLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC9A51120AE8DF600A3FC8C /* QIMLocalLog.m */; };
+		336F101524BDF48800F746C7 /* QIMRTCSettingStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 336F100D24BDF48700F746C7 /* QIMRTCSettingStore.h */; };
+		336F101624BDF48800F746C7 /* QIMRTCSettingModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 336F100E24BDF48800F746C7 /* QIMRTCSettingModel.h */; };
+		336F101724BDF48800F746C7 /* QIMVideoDecoderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F100F24BDF48800F746C7 /* QIMVideoDecoderFactory.m */; };
+		336F101824BDF48800F746C7 /* QIMRTCSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F101024BDF48800F746C7 /* QIMRTCSettingModel.m */; };
+		336F101924BDF48800F746C7 /* QIMRTCSettingStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F101124BDF48800F746C7 /* QIMRTCSettingStore.m */; };
+		336F101A24BDF48800F746C7 /* QIMVideoEncoderFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 336F101224BDF48800F746C7 /* QIMVideoEncoderFactory.h */; };
+		336F101B24BDF48800F746C7 /* QIMVideoEncoderFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F101324BDF48800F746C7 /* QIMVideoEncoderFactory.m */; };
+		336F101C24BDF48800F746C7 /* QIMVideoDecoderFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 336F101424BDF48800F746C7 /* QIMVideoDecoderFactory.h */; };
 		3BF7E3332B9BBEEC4512BB06 /* libPods-QIMGeneralModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE840847922E3FEBB6D1E3E /* libPods-QIMGeneralModule.a */; };
 /* End PBXBuildFile section */
 
@@ -193,6 +201,15 @@
 		2CC9A50F20AE8DF600A3FC8C /* QIMLocalLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIMLocalLog.h; sourceTree = "<group>"; };
 		2CC9A51020AE8DF600A3FC8C /* QIMBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIMBacktraceLogger.m; sourceTree = "<group>"; };
 		2CC9A51120AE8DF600A3FC8C /* QIMLocalLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIMLocalLog.m; sourceTree = "<group>"; };
+		336F100D24BDF48700F746C7 /* QIMRTCSettingStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIMRTCSettingStore.h; sourceTree = "<group>"; };
+		336F100E24BDF48800F746C7 /* QIMRTCSettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIMRTCSettingModel.h; sourceTree = "<group>"; };
+		336F100F24BDF48800F746C7 /* QIMVideoDecoderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIMVideoDecoderFactory.m; sourceTree = "<group>"; };
+		336F101024BDF48800F746C7 /* QIMRTCSettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIMRTCSettingModel.m; sourceTree = "<group>"; };
+		336F101124BDF48800F746C7 /* QIMRTCSettingStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIMRTCSettingStore.m; sourceTree = "<group>"; };
+		336F101224BDF48800F746C7 /* QIMVideoEncoderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIMVideoEncoderFactory.h; sourceTree = "<group>"; };
+		336F101324BDF48800F746C7 /* QIMVideoEncoderFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIMVideoEncoderFactory.m; sourceTree = "<group>"; };
+		336F101424BDF48800F746C7 /* QIMVideoDecoderFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIMVideoDecoderFactory.h; sourceTree = "<group>"; };
+		336F101D24BDFBBD00F746C7 /* APOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APOpenSSL.framework; path = Pods/APOpenSSL/APOpenSSL.framework; sourceTree = "<group>"; };
 		5AE840847922E3FEBB6D1E3E /* libPods-QIMGeneralModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QIMGeneralModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A87B3680C7FC42D96B95F2A /* Pods-QIMGeneralModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QIMGeneralModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-QIMGeneralModule/Pods-QIMGeneralModule.release.xcconfig"; sourceTree = "<group>"; };
 		B3094A22386E14CCB77B2FBD /* Pods-QIMGeneralModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QIMGeneralModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QIMGeneralModule/Pods-QIMGeneralModule.debug.xcconfig"; sourceTree = "<group>"; };
@@ -319,6 +336,14 @@
 		2C33146520AC347500819A6E /* RTC */ = {
 			isa = PBXGroup;
 			children = (
+				336F100E24BDF48800F746C7 /* QIMRTCSettingModel.h */,
+				336F101024BDF48800F746C7 /* QIMRTCSettingModel.m */,
+				336F100D24BDF48700F746C7 /* QIMRTCSettingStore.h */,
+				336F101124BDF48800F746C7 /* QIMRTCSettingStore.m */,
+				336F101424BDF48800F746C7 /* QIMVideoDecoderFactory.h */,
+				336F100F24BDF48800F746C7 /* QIMVideoDecoderFactory.m */,
+				336F101224BDF48800F746C7 /* QIMVideoEncoderFactory.h */,
+				336F101324BDF48800F746C7 /* QIMVideoEncoderFactory.m */,
 				2C1D0F70215F2CBA00275225 /* icons */,
 				2C33146720AC347500819A6E /* QIMRTCButton.h */,
 				2C33146C20AC347500819A6E /* QIMRTCButton.m */,
@@ -413,6 +438,7 @@
 				2C136D8920AD8349005BE210 /* GLKit.framework */,
 				2C136D8720AD82EA005BE210 /* VideoToolbox.framework */,
 				5AE840847922E3FEBB6D1E3E /* libPods-QIMGeneralModule.a */,
+				336F101D24BDFBBD00F746C7 /* APOpenSSL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -434,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C532BD4226D95CF004064AC /* QIMAutoTrackerOperation.h in Headers */,
+				336F101524BDF48800F746C7 /* QIMRTCSettingStore.h in Headers */,
 				2C1D0F6F215F212D00275225 /* QIMGeneralModuleFramework.h in Headers */,
 				2C7333A62179DA73006C7EA8 /* QIMRTCSingleView.h in Headers */,
 				2C136D7A20AD7B52005BE210 /* Base64.h in Headers */,
@@ -448,6 +475,7 @@
 				2C3D1DD3226DCBE900918302 /* QIMAutoTrackerDataManager.h in Headers */,
 				2C3314FB20AC347500819A6E /* QIMWebRTCClient.h in Headers */,
 				2C532BD2226D95CF004064AC /* UITableView+QIMAutoTracker.h in Headers */,
+				336F101624BDF48800F746C7 /* QIMRTCSettingModel.h in Headers */,
 				2CC9A51620AE8DF600A3FC8C /* QIMLocalLog.h in Headers */,
 				2C532BD3226D95CF004064AC /* NSObject+QIMAutoTracker.h in Headers */,
 				2C3314F220AC347500819A6E /* QIMRTCHeaderView.h in Headers */,
@@ -459,8 +487,10 @@
 				2C3314CA20AC347500819A6E /* QIMRTCMeetingView.h in Headers */,
 				2C3314C620AC347500819A6E /* QIMRTCButton.h in Headers */,
 				2C3314CC20AC347500819A6E /* QIMRTCViewController.h in Headers */,
+				336F101C24BDF48800F746C7 /* QIMVideoDecoderFactory.h in Headers */,
 				2C3314C120AC347500819A6E /* QIMWebRTCSocketClient.h in Headers */,
 				2CC9A51520AE8DF600A3FC8C /* QIMBacktraceLogger.h in Headers */,
+				336F101A24BDF48800F746C7 /* QIMVideoEncoderFactory.h in Headers */,
 				2C148362213FDC70009D4AE3 /* QIMLogFormatter.h in Headers */,
 				2C136D7F20AD7B52005BE210 /* QIMEncryptChat.h in Headers */,
 				2C136D6520AD7AC1005BE210 /* QIMAES256.h in Headers */,
@@ -617,6 +647,7 @@
 				2C7333A72179DA73006C7EA8 /* QIMRTCSingleView.m in Sources */,
 				2C136D7D20AD7B52005BE210 /* QIMPasswordGenerate.m in Sources */,
 				2C532BDA226D95CF004064AC /* QIMAutoTrackerManager.m in Sources */,
+				336F101924BDF48800F746C7 /* QIMRTCSettingStore.m in Sources */,
 				2C136D7820AD7B51005BE210 /* QIMEncryptChat.m in Sources */,
 				2C532BD5226D95CF004064AC /* UIButton+QIMAutoTracker.m in Sources */,
 				2C6108D4214680EE00C30923 /* QIMCalendarsManager.m in Sources */,
@@ -626,8 +657,10 @@
 				2C136D7720AD7B51005BE210 /* QIMNoteModel.m in Sources */,
 				2C136D7920AD7B51005BE210 /* AESTools.mm in Sources */,
 				2C3314F320AC347500819A6E /* QIMRTCMeetingView.m in Sources */,
+				336F101B24BDF48800F746C7 /* QIMVideoEncoderFactory.m in Sources */,
 				2C136D8620AD7B52005BE210 /* AES.mm in Sources */,
 				2C532BDE226D95CF004064AC /* NSObject+QIMAutoTracker.m in Sources */,
+				336F101824BDF48800F746C7 /* QIMRTCSettingModel.m in Sources */,
 				2C136D7B20AD7B52005BE210 /* AESCrypt.m in Sources */,
 				2C3314F420AC347500819A6E /* QIMRTCNSNotification.m in Sources */,
 				2C3314C420AC347500819A6E /* QIMWebRTCSocketClient.m in Sources */,
@@ -642,6 +675,7 @@
 				2C148363213FDC70009D4AE3 /* QIMLogFormatter.m in Sources */,
 				2C136D7E20AD7B52005BE210 /* Base64.mm in Sources */,
 				2C3314C720AC347500819A6E /* QIMRTCHeaderView.m in Sources */,
+				336F101724BDF48800F746C7 /* QIMVideoDecoderFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,6 +810,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/APOpenSSL",
+				);
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = QIMGeneralModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -809,6 +847,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/APOpenSSL",
+				);
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = QIMGeneralModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

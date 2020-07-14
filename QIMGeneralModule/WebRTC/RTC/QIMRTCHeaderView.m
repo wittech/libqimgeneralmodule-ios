@@ -9,8 +9,9 @@
 #import "QIMRTCHeaderView.h"
 #import "QIMKitPublicHeader.h"
 #import "UIView+QIMExtension.h"
-#import "QIMImageManager.h"
-#import "UIImageView+QIMImageCache.h"
+//#import "QIMImageManager.h"
+//#import "UIImageView+QIMImageCache.h"
+#import <APWebImage/UIImageView+WebCache.h>
 @interface QIMRTCHeaderView () {
     NSString *_userId;
     NSString *_userName;
@@ -82,8 +83,11 @@ static CGFloat kImageScale = 0.80f;
     NSDictionary *userInfo = [[QIMKit sharedInstance] getUserInfoByUserId:_userId];
     if(userInfo){
         NSString * urlStr = [userInfo objectForKey:@"HeaderSrc"];
+        //TODO:根据原有代码逻辑进行调整；
         if (urlStr) {
-            [self.headerView qim_setImageWithURL:[NSURL URLWithString:urlStr] WithChatType:0];
+            [self.headerView sd_setImageWithURL:[NSURL URLWithString:urlStr]
+            placeholderImage:[UIImage imageWithData:[QIMKit defaultUserHeaderImage]]];
+//          [self.headerView sd_setImageWithURL:[NSURL URLWithString:urlStr] WithChatType:0];
         }
         else{
             NSData *imageData = [QIMKit defaultUserHeaderImage];

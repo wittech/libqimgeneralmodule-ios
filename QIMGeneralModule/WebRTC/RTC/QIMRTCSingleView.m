@@ -15,7 +15,7 @@
 #import <WebRTC/WebRTC.h>
 #import "QIMRTCViewController.h"
 #import "UIView+QIMExtension.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 #import "QIMDeviceManager.h"
 #import "UIColor+QIMUtility.h"
 #import "QIMKitPublicHeader.h"
