@@ -28,7 +28,7 @@ target 'QIMGeneralModule' do
   pod 'Masonry'
 
   #通用UI
-  mPaaS_pod "mPaaS_CommonUI"
-  pod 'APOpenSSL'
+#  mPaaS_pod "mPaaS_CommonUI"
+  pod 'APWebImage'
 
 end
