@@ -29,6 +29,6 @@ target 'QIMGeneralModule' do
 
   #通用UI
 #  mPaaS_pod "mPaaS_CommonUI"
-  pod 'APWebImage'
+  pod 'SDWebImage', '~> 1.0.0.200404155527'
 
 end

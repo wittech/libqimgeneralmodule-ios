@@ -11,7 +11,7 @@
 #import "UIView+QIMExtension.h"
 //#import "QIMImageManager.h"
 //#import "UIImageView+QIMImageCache.h"
-#import <APWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 @interface QIMRTCHeaderView () {
     NSString *_userId;
     NSString *_userName;
