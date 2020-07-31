@@ -7,7 +7,7 @@
 //
 
 #import "QIMWebRTCSocketClient.h"
-#import <SocketCraft/SocketRocket.h>
+#import <SocketRocket/SocketRocket.h>
 #import "QIMJSONSerializer.h"
 #import "QIMKitPublicHeader.h"
 #import "QIMNetwork.h"
