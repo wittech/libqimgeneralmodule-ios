@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DDLog.h"
+#import "CocoaLumberjack.h"
 
 @interface QIMLogFormatter : NSObject <DDLogFormatter>
 
